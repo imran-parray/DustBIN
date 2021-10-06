@@ -6,7 +6,10 @@
 
 ![x](1.png)
 
+
+
 - Fillup all the necessary information till you reach_invite_ tab and click Done button to invite him.
+
 ![x](2.png)
 
 
@@ -17,6 +20,7 @@
 
 
 - Now the invited Employee will be sent an invitation email from hibob, Accept the invitation and Join the Dashboard via https://app.hibob.com.
+
 ![x](4.png)
 
 
