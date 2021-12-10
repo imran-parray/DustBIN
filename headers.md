@@ -31,3 +31,27 @@ When a user visits a site through his/her browser, the server responds with HTTP
 Let's take a live example see how an Website which is vulnerable to XSS(Cross Site) Scripting can be protected using security Headers and see how those headers prevent attackers from exploiting the vulnerability on the vulbnerable website.
 
 
+- Lets say we uploaded this piece of code on our website which is vulnerable to XSS
+
+```php
+<?php
+
+
+if(isset($_GET['name'])){
+	echo $_GET['name'];
+}
+
+?>
+```
+
+- As soon as we visit the website and enter any XSS payload in `name` parameter you can see the XSS pops-up 
+
+
+![Screen Shot 2021-12-10 at 5 21 39 PM](https://user-images.githubusercontent.com/27428157/145570126-5aa0e2e3-22a1-41f3-b184-edfd03dcc0c4.png)
+
+- and on having an look at the response headers the following headers were send in the response to the browser
+
+
+![Screen Shot 2021-12-10 at 5 22 41 PM](https://user-images.githubusercontent.com/27428157/145570227-8e98db15-de8f-4ac5-b2c1-9cf5b3b882c7.png)
+
+- 
