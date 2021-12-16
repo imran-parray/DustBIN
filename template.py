@@ -21,7 +21,7 @@ def sendtoslack(msg):
 	t_data={}
 	t_data['text']=msg
 	data=json.dumps(t_data)
-	res=requests.post("https://hooks.slack.com/services/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",data=data,headers={"content-type":"application/json"})
+	res=requests.post("https://<SLACK-URL>",data=data,headers={"content-type":"application/json"})
 	print('Sending to Slack[ hackerXcreed ]')
 
 
