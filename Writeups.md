@@ -9,6 +9,8 @@
 - [Design Flaw to access form response](https://bugcrowd.com/submissions/acaa6176ea1b9588cde928ac7ee2e21c10ff3e41aaac0a256969c79bdac9e95c)
 
 
+## Blog Posts:
+
 - https://samcurry.net/hacking-starbucks/
 
 - https://edoverflow.com/2018/meg/
