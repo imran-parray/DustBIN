@@ -14,17 +14,20 @@ https://github.com/projectdiscovery/subfinder
 
 input: snapsec.co
 
-output: 
+output:  For each subdomain Found, Create this JSON record:
+
 ```json	
-		{
-  "root_domain": "snapsec.co",
-  "count": "3",
-  "subdomains": [
-    "1.snapsec.co",
-    "2.snapsec.co",
-    "3.snapsec.co"
-  ]
+{
+  "id": 1234,
+  "owner": "org_1234",
+  "report_id": "1234",
+  "type": "subdomain",
+  "value": "emails.snapsec.tech",
+  "root_domain": "wakeb.tech",
+  "source": "subfinder"
 }
+
+
 ```
 
 
