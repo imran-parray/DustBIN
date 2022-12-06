@@ -26,3 +26,10 @@ output:
 						]
 		}
 ```
+
+
+## Extra details
+
+#### Use -oJ for JSON Output
+
+![image](https://user-images.githubusercontent.com/27428157/205863335-0056b391-36ba-4ef9-91e3-aea33683d566.png)
