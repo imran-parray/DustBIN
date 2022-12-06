@@ -17,14 +17,14 @@ input: snapsec.co
 output: 
 ```json	
 		{
-		"root_domain":"snapsec.co",
-		"count":"3",
-		"subdomains":   [
-						"1.snapsec.co",
-						"2.snapsec.co",
-						"3.snapsec.co"
-						]
-		}
+  "root_domain": "snapsec.co",
+  "count": "3",
+  "subdomains": [
+    "1.snapsec.co",
+    "2.snapsec.co",
+    "3.snapsec.co"
+  ]
+}
 ```
 
 
