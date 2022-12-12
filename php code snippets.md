@@ -49,7 +49,7 @@ if ($result->num_rows > 0) {
 ```
 
 
-### Insert Data
+### Insert Qury
 
 ```php
 <?php
@@ -66,5 +66,25 @@ if (isset($_POST["msg"]) && !empty($_POST["msg"])) {
 
 ```
 
+
+### Update Query
+
+```php
+
+<?php
+if (isset($_GET["id"])) {
+    $id = $_GET["id"];
+    $status = $_GET["status"];
+
+    $q = "UPDATE `intrests` SET `disabled`=$status where id=$id";
+
+    $conn->query($q);
+
+    header("location:interests.php");
+} 
+?>
+
+
+```
 
     
