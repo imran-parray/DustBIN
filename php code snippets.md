@@ -49,5 +49,22 @@ if ($result->num_rows > 0) {
 ```
 
 
+### Insert Data
+
+```php
+<?php
+
+if (isset($_POST["msg"]) && !empty($_POST["msg"])) {
+    $msg = mysqli_real_escape_string($conn, $_POST["msg"]);
+    $rcvr = mysqli_real_escape_string($conn, $_GET["id"]);
+
+    $q = "INSERT INTO chat(sndr,rcvr,msg,date) VALUES($sndr,$rcvr,'$msg','$date')";
+    $result = $conn->query($q);
+}
+
+?>
+
+```
+
 
     
