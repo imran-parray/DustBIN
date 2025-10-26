@@ -2,7 +2,7 @@
 
 
 - Login to your Hibob Admin Account on https://app.hibob.com
-- Go to https://app.hibob.com/people/directory and click on New Hire + button
+- Go to https://app.stage.hibob.com/people/directory and click on New Hire + button
 
 ![x](1.png)
 
